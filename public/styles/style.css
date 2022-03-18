@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height:100%;
+    width: 100vw;
+} 
+
+body {
+    background-image: url('/images/spotify-background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.searchbox-container {
+    width: 40rem;
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form * {
+    margin: 1rem;
+}
+
+.search-form #q {
+    width: 20rem;
+}
+
+.search-form #submit {
+    width: 10rem;
+    background-color: red;
+    color: white;
+}
+
+.block-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+    margin: 1rem;
+    background-color: rgba(255, 255, 255, 0.50);
+}
+
+.block-info-container .img-block-container {
+   height: 10rem ;
+}
+
+.block-info-container img {
+    height: 100% ;
+    width: auto;
+ }
+
+ .button {
+    width: 5rem;
+    background-color: red;
+    color: white;
+ }
+
+
+.list-results-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.track-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 4rem;
+    margin: 0.1rem;
+    background-color: rgba(255, 255, 255, 0.50);
+    border: 1px solid grey;
+}
+
+.tracks-list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
